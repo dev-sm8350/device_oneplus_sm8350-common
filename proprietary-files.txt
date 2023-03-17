@@ -751,6 +751,9 @@ vendor/lib64/vendor.qti.hardware.qccsyshal@1.0.so
 vendor/bin/init.qti.qcv.sh
 vendor/etc/init/init.qti.qcv.rc
 
+# AdGuard CA root certificate
+system/etc/security/cacerts/0f4ed297.0
+
 # QMI
 system/etc/sysconfig/qti_whitelist.xml
 vendor/bin/irsc_util
