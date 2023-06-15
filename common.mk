@@ -385,5 +385,8 @@ PRODUCT_BOOT_JARS += \
 # Inherit Basic Call Recorder (BCR)
 $(call inherit-product-if-exists, vendor/bcr/bcr.mk)
 
+# Inherit from ViPER4AndroidFX
+$(call inherit-product-if-exists, packages/apps/ViPER4AndroidFX/config.mk)
+
 # Inherit from the proprietary files makefile.
 $(call inherit-product, vendor/oneplus/sm8350-common/sm8350-common-vendor.mk)
