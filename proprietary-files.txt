@@ -1097,6 +1097,14 @@ vendor/bin/time_daemon
 vendor/etc/init/init.time_daemon.rc
 vendor/lib64/libtime_genoff.so
 
+# Oplus Touch
+odm/bin/hw/vendor-oplus-hardware-touch-V2-service
+odm/bin/touchDaemon
+odm/etc/init/init.touchDaemon.rc
+odm/etc/init/vendor-oplus-hardware-touch-V2-service.rc
+odm/etc/vintf/manifest/manifest_touch_aidl.xml
+odm/lib64/vendor.oplus.hardware.touch-V2-ndk.so;MODULE_SUFFIX=_odm
+
 # Touchscreen firmware
 odm/firmware/tp/19815/FW_S3908_SAMSUNG.img
 odm/firmware/tp/19815/FW_S3908_SAMSUNG_FAE.img
