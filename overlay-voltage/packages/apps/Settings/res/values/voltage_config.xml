@@ -6,4 +6,7 @@
 <resources>
     <!-- Whether to show TouchGestures preference -->
     <bool name="config_supportsTouchGestures">true</bool>
+
+    <!-- Show battery cycle count -->
+    <bool name="config_show_battery_cycle_count" translatable="false">true</bool>
 </resources>
