@@ -254,6 +254,7 @@ PRODUCT_PACKAGES += \
 # Sensors
 PRODUCT_PACKAGES += \
     android.frameworks.sensorservice@1.0.vendor \
+    android.frameworks.sensorservice@1.0 \
     android.hardware.sensors@2.0-service.multihal \
     libsensorndkbridge \
     sensors.oplus
