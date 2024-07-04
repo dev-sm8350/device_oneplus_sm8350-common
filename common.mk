@@ -216,7 +216,8 @@ PRODUCT_PACKAGES += \
     libOmxEvrcEnc \
     libOmxG711Enc \
     libOmxQcelp13Enc \
-    libstagefrighthw
+    libstagefrighthw \
+    libstagefright_softomx_plugin.vendor
 
 # Overlays
 $(call inherit-product, hardware/oplus/overlay/generic/generic.mk)
