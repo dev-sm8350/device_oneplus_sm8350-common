@@ -388,6 +388,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_BOOT_JARS += \
     WfdCommon
 
+# Enable Treble Override
+PRODUCT_FULL_TREBLE_OVERRIDE := true
+
 # Inherit Basic Call Recorder (BCR)
 $(call inherit-product-if-exists, vendor/bcr/bcr.mk)
 
