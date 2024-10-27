@@ -351,6 +351,9 @@ vendor/lib64/librpmb.so
 vendor/lib64/libspl.so
 vendor/lib64/libssd.so
 vendor/lib64/vendor.qti.hardware.qseecom@1.0.so
+vendor/lib64/libsecureui.so
+vendor/lib64/libStDrvInt.so
+vendor/lib64/libsecureui_svcsock.so
 
 # Gatekeeper
 vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti
