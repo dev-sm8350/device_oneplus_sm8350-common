@@ -163,6 +163,7 @@ persist.vendor.sensors.sync_request=true
 
 # USB
 sys.usb.mtp.batchcancel=1
+ro.usb.uvc.enabled=true
 vendor.usb.diag.func.name=ffs
 vendor.usb.dpl.inst.name=dpl
 vendor.usb.qdss.inst.name=qdss_sw
