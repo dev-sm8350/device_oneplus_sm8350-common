@@ -209,10 +209,6 @@ TARGET_USES_AOSP_RECOVERY := true
 PRODUCT_PACKAGES += \
     vendor.lineage.health-service.default
 
-# LiveDisplay
-PRODUCT_PACKAGES += \
-    vendor.lineage.livedisplay@2.1-service.oplus
-
 # OMX
 PRODUCT_PACKAGES += \
     libOmxAacEnc \
