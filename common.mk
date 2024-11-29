@@ -207,6 +207,9 @@ $(call soong_config_set,libinit,vendor_init_lib,//$(LOCAL_PATH):libinit_oplus)
 # Kernel
 PRODUCT_ENABLE_UFFD_GC := true
 
+# Scudo
+PRODUCT_DISABLE_SCUDO := false
+
 # Recovery
 TARGET_USES_AOSP_RECOVERY := true
 
