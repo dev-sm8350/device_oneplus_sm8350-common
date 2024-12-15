@@ -137,6 +137,7 @@ PRODUCT_PACKAGES += \
 # Fingerprint
 TARGET_USES_FOD_ZPOS := true
 PRODUCT_PACKAGES += \
+    android.hardware.biometrics.fingerprint@2.1.vendor \
     android.hardware.biometrics.fingerprint@2.3-service.oplus
 
 PRODUCT_COPY_FILES += \
